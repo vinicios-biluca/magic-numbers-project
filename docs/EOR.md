@@ -21,3 +21,5 @@ Este documento se refere ao processo de levantamento de requisitos do sistema �
 - O sistema deverá conter uma funcionalidade que permita as respostas "Sim" ou "Não" para cada carta exibida;
 - O Sistema deverá conter uma tela que exibirá o resultado do jogo.
 - O Sistema deverá permitir que o Usuário inicie o jogo novamente, se assim desejar.
+
+
