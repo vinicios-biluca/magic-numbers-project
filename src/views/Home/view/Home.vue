@@ -16,7 +16,7 @@
             </v-toolbar>
             <v-cardtext class="pa-10">
               <p>This is the Starter Project!</p>
-              <p>Go On! Make Great Things!</p>
+              <p>{{welcomeMessage}}</p>
             </v-cardtext>
           </v-card>
         </v-col>
@@ -34,7 +34,14 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
+  computed: {
+    ...mapGetters({
+      welcomeMessage: "default_module/getWelcomeMessage"
+    })
+  },
   methods: {
     goToAboutPage() {
       this.$router.push("About");
